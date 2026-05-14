@@ -1,7 +1,7 @@
 import React from "react"
 import emical from "../assets/emiicon.png"
 import { useForm, Controller } from "react-hook-form"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
