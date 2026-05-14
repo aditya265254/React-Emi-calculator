@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Calculator from './pages/Calculator'
 import { Route, Routes } from 'react-router'
 
+
 const App = () => {
   return (
     <div className='max-w-7xl mx-auto  '>

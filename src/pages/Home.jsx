@@ -24,7 +24,7 @@ const Home = () => {
   ];
   return (
     <div className="flex items-center justify-center   ">
-      <div className="flex flex-col items-center justify-center border border-zinc-300 rounded-2xl shadow bg-zinc-100 py-6">
+      <div className="flex flex-col items-center justify-center border border-zinc-300 rounded-2xl  bg-zinc-100 py-6 shadow-2xl">
         <h1 className="font-bold text-4xl ">
           Car EMI <br />
           <span className="text-[blue] "> Calculator</span>
