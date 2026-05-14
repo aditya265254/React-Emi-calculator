@@ -24,7 +24,7 @@ const Calculator = () => {
   const reset = () => setResult(null)
 
   return (
-    <div className="flex gap-6">
+    <div className="flex flex-col md:flex-row gap-6">
       <Home />
       <EmiForm onCalculate={calculateEMI} onReset={reset} />
       {result && <EmiResult result={result} />}

@@ -49,7 +49,7 @@ const EmiForm = ({ onCalculate, onReset }) => {
   }
 
   return (
-    <Card className="w-1/3 shadow-2xl">
+    <Card className="md:w-1/3 shadow-2xl">
       <CardHeader className="mt-3">
         <CardTitle className="flex items-center gap-1">
           <img className="rounded-full w-10" src={emical} alt="icon" />

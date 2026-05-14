@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 const EmiResult = ({ result }) => {
   return (
-    <Card className="w-1/3 bg-zinc-100 shadow-2xl">
+    <Card className="md:w-1/3 bg-zinc-100 shadow-2xl">
       <CardHeader className='my-3'>
         <CardTitle className='text-black font-bold text-2xl'>Your Results</CardTitle>
       </CardHeader>
